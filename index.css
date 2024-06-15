@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('octoberEight.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .promposal-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+  
+  .promposal-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .promposal-container button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #yesButton {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #yesButton:hover {
+    background-color: #45a049;
+  }
+  
+  #noButton {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #noButton:hover {
+    background-color: #da190b;
+  }
+  
+  .grow {
+    animation: grow 2s forwards;
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(3);
+    }
+  }
+
+.promposal-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: black;
+  }

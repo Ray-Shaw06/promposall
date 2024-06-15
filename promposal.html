@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>prompoosal</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="promposal-container">
+        <h1>Will you go to prom with me?</h1>
+        <button id="yesButton">Yes</button>
+        <button id="noButton">No</button>
+      </div>
+      <script>
+        document.getElementById('yesButton').addEventListener('click', function() {
+  alert('HEHEHHEHE LETS FOOOKIN GOOOOOOO, BE DOWN AROUND 5 45 AND GUESS WHAT U DATING ME SO UR COMING WITH ME BC UR STUCK WITH ME');
+});
+
+document.getElementById('noButton').addEventListener('click', function() {
+  const yesButton = document.getElementById('yesButton');
+  yesButton.classList.add('grow');
+  document.getElementById('noButton').style.display = 'none';
+});
+      </script>
+</body>
+</html>
